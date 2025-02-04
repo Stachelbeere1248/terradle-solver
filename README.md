@@ -1,7 +1,7 @@
 # terradle-solver
 An algorithm to solve [https://www.terradle.com/](terradle.com).
 
-The algorith determines the guess with the lowest average (arithmetic mean) amount of possible weapons for the next guess, based on the new information it will provide.
+The algorith determines the guess with the lowest average (arithmetic mean) amount of possible weapons for the next guess, based on all possible sets of new information it could provide.
 
 Download and build the project:
 ```
