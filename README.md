@@ -5,6 +5,7 @@ The algorith determines the guess with the lowest average (arithmetic mean) amou
 
 Dependencies:
 - openssl header files
+
 alternatively you can modify Cargo.toml to use rustls instead of native-tls
 
 Download and build the project:
