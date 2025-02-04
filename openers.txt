@@ -1,1 +1,373 @@
-["Rainbow Rod", "Ice Sickle", "Seedler", "Frostbrand", "Orichalcum Sword", "Palladium Sword", "Adamantite Glaive", "Orichalcum Halberd", "Night's Edge", "Adamantite Sword", "Resonance Scepter", "Mythril Halberd", "Bone Sword", "Hel-Fire", "Stynger", "Dart Pistol", "Meteor Staff", "Shadowflame Hex Doll", "Frost Staff", "Palladium Pike", "Spirit Flame", "Enchanted Sword", "Shadowflame Knife", "Mythril Sword", "Cobalt Sword", "Tentacle Spike", "Shadowflame Bow", "Chik", "Marrow", "Cobalt Naginata", "Sky Fracture", "Cascade", "Ice Bow", "Titanium Sword", "Yelets", "Excalibur", "Venus Magnum", "Amazon", "Death Sickle", "Amarok", "Cutlass", "Flying Knife", "Blood Butcherer", "Magical Harp", "Blade of Grass", "Trimarang", "Xenopopper", "Hallowed Repeater", "Hive-Five", "KO Cannon", "Magnet Sphere", "Super Star Shooter", "Possessed Hatchet", "Medusa Head", "Spectre Staff", "Chain Guillotines", "Tsunami", "Life Drain", "Malaise", "Aerial Bane", "Titanium Trident", "Jack 'O Lantern Launcher", "Chlorophyte Partisan", "Inferno Fork", "Sleepy Octopod", "Flymeal", "Gungnir", "Palladium Repeater", "Demon Scythe", "Uzi", "Eventide", "Ghastly Glaive", "Bee Keeper", "Book of Skulls", "Molten Fury", "Phantom Phoenix", "Blizzard Staff", "Flower of Frost", "Artery", "Chlorophyte Shotbow", "Orichalcum Repeater", "Exotic Scimitar", "Bloody Machete", "Laser Rifle", "Bananarang", "Sandgun", "Terragrim", "Titanium Repeater", "Diamond Staff", "Mythril Repeater", "Rocket Launcher", "Bat Scepter", "Mandible Blade", "The Bee's Knees", "Flairon", "Chlorophyte Saber", "Harpoon", "Kraken", "Dark Lance", "Adamantite Repeater", "Crystal Serpent", "Ruby Staff", "Scourge of the Corruptor", "Electrosphere Launcher", "Amber Staff", "Water Bolt", "Golden Shower", "Chlorophyte Claymore", "Crystal Vile Shard", "Falcon Blade", "Stylish Scissors", "Beam Sword", "Ham Bat", "True Excalibur", "Venom Staff", "Code 2", "Pygmy Staff", "Laser Machinegun", "Gradient", "Shadowbeam Staff", "Star Cannon", "Durendal", "Valor", "Arkhalis", "Flower of Fire", "Celebration", "Cursed Flames", "Daedalus Stormbow", "Rally", "Grenade Launcher", "Tragic Umbrella", "Combat Wrench", "Red's Throw", "Dart Rifle", "Bubble Gun", "Candy Cane Sword", "Classy Cane", "Nettle Burst", "Valkyrie Yoyo", "Light's Bane", "Format:C", "Candy Corn Rifle", "Influx Waver", "Pirate Staff", "Starlight", "Heat Ray", "Tome of Infinite Wisdom", "True Night's Edge", "Cobalt Repeater", "Starfury", "Zombie Arm", "Phoenix Blaster", "Gladius", "Brand of the Inferno", "Blood Rain Bow", "Storm Spear", "Poison Staff", "Hornet Staff", "Clinger Staff", "North Pole", "Flamethrower", "Firecracker", "Revolver", "Dao of Pow", "Snowman Cannon", "Bladetongue", "Hellwing Bow", "Umbrella", "The Eye of Cthulhu", "Spinal Tap", "Ice Blade", "Raven Staff", "Sky Dragon's Fury", "Fetid Baghnakhs", "Nebula Arcanum", "Flying Dragon", "Nightglow", "Code 1", "Terra Blade", "The Meatball", "Emerald Staff", "Christmas Tree Sword", "Paintball Gun", "Cool Whip", "Shroomerang", "Bat Bat", "Elf Melter", "Toxic Flask", "Light Disc", "Handgun", "Ice Rod", "Charged Blaster Cannon", "Trident", "Stellar Tune", "Blowgun", "Muramasa", "Swordfish", "The Rotted Fork", "Vampire Knives", "Volcano", "Flaming Mace", "Demon Bow", "Flamelash", "Slime Staff", "Phantasm", "The Undertaker", "Thorn Chakram", "Thunder Zapper", "Vortex Beater", "Wooden Boomerang", "Sapphire Staff", "Chain Knife", "Razorblade Typhoon", "Toxikarp", "Sanguine Staff", "Leaf Blower", "Silver Broadsword", "Stake Launcher", "Breathing Reed", "Tungsten Broadsword", "Blood Thorn", "Unholy Trident", "Musket", "Crystal Storm", "Flamarang", "Blue Moon", "Deadly Sphere Staff", "Pew-matic Horn", "Copper Broadsword", "Magic Dagger", "Wasp Gun", "Tactical Shotgun", "Mace", "Razorpine", "Ball O' Hurt", "Tendon Bow", "Pearlwood Sword", "Keybrand", "Tempest Staff", "Betsy's Wrath", "Aqua Scepter", "Queen Spider Staff", "Ash Wood Sword", "Snapthorn", "Optic Staff", "Magic Missile", "Platinum Shortsword", "Lead Broadsword", "Rainbow Gun", "Cactus Sword", "Boomstick", "Dark Harvest", "Iron Broadsword", "Piranha Gun", "Katana", "Gold Shortsword", "Enchanted Boomerang", "Hallowed Jousting Lance", "Nimbus Rod", "Tin Broadsword", "Breaker Blade", "Drippler Crippler", "Pulse Bow", "Xeno Staff", "Shadewood Sword", "Obsidian Swordfish", "Spider Staff", "Ebonwood Sword", "Fruitcake Chakram", "Space Gun", "Platinum Broadsword", "Imp Staff", "Kaleidoscope", "Mushroom Spear", "Gray Zapinator", "Terraprisma", "Wooden Yoyo", "Palm Wood Sword", "Rich Mahogany Sword", "Staff of Earth", "Boreal Wood Sword", "Red Ryder", "Vampire Frog Staff", "Gold Broadsword", "Bee Gun", "Bladed Glove", "Lunar Flare", "Anchor", "Clockwork Assault Rifle", "Psycho Knife", "Chain Gun", "Sunfury", "Ice Boomerang", "Flower Pow", "Paladin's Hammer", "Orange Zapinator", "Golem Fist", "Blowpipe", "Desert Tiger Staff", "Wooden Sword", "Flinx Staff", "Jousting Lance", "Houndius Shootius", "Tungsten Shortsword", "Vilethorn", "Daybreak", "Stardust Dragon Staff", "Ale Tosser", "Snowball Cannon", "Shotgun", "Megashark", "Onyx Blaster", "The Horseman's Blade", "Nail Gun", "Silver Shortsword", "Lead Shortsword", "Terrarian", "Iron Shortsword", "Topaz Staff", "Nebula Blaze", "Wand of Sparking", "Amethyst Staff", "Sergeant United Shield", "Abigail's Flower", "Stardust Cell Staff", "Crimson Rod", "Zenith", "Finch Staff", "Solar Eruption", "Leather Whip", "Weather Pain", "Staff of the Frost Hydra", "Tin Shortsword", "Slap Hand", "Star Wrath", "Ruler", "Platinum Bow", "Flintlock Pistol", "Proximity Mine Launcher", "Shadow Jousting Lance", "Spear", "Last Prism", "Copper Shortsword", "Meowmere", "Quad-Barrel Shotgun", "Coin Gun", "Purple Clubberfish", "Tungsten Bow", "Lunar Portal Staff", "Pearlwood Bow", "Gold Bow", "Sniper Rifle", "S.D.M.G.", "Lead Bow", "Silver Bow", "Gatligator", "Ebonwood Bow", "Iron Bow", "Shadewood Bow", "Rainbow Crystal Staff", "Morning Star", "Rich Mahogany Bow", "Copper Bow", "Tin Bow", "Palm Wood Bow", "Blade Staff", "Boreal Wood Bow", "Wooden Bow", "Celebration Mk2", "Flare Gun", "Minishark"]
+Weapon                        | Score
+
+Rainbow Rod                   | 2.138728323699422
+Ice Sickle                    | 2.176470588235294
+Seedler                       | 2.176470588235294
+Frostbrand                    | 2.2023809523809526
+Orichalcum Sword              | 2.242424242424242
+Palladium Sword               | 2.242424242424242
+Adamantite Glaive             | 2.242424242424242
+Orichalcum Halberd            | 2.2560975609756095
+Night's Edge                  | 2.2699386503067487
+Adamantite Sword              | 2.2839506172839505
+Resonance Scepter             | 2.2839506172839505
+Mythril Halberd               | 2.298136645962733
+Bone Sword                    | 2.3125
+Hel-Fire                      | 2.3125
+Stynger                       | 2.3125
+Dart Pistol                   | 2.3270440251572326
+Meteor Staff                  | 2.3270440251572326
+Shadowflame Hex Doll          | 2.3417721518987342
+Frost Staff                   | 2.356687898089172
+Palladium Pike                | 2.356687898089172
+Spirit Flame                  | 2.371794871794872
+Enchanted Sword               | 2.3870967741935485
+Shadowflame Knife             | 2.3870967741935485
+Mythril Sword                 | 2.4025974025974026
+Cobalt Sword                  | 2.4025974025974026
+Tentacle Spike                | 2.4025974025974026
+Shadowflame Bow               | 2.418300653594771
+Chik                          | 2.4342105263157894
+Marrow                        | 2.4342105263157894
+Cobalt Naginata               | 2.4342105263157894
+Sky Fracture                  | 2.4503311258278146
+Cascade                       | 2.4503311258278146
+Ice Bow                       | 2.4503311258278146
+Titanium Sword                | 2.4832214765100673
+Yelets                        | 2.5
+Excalibur                     | 2.5
+Venus Magnum                  | 2.5
+Amazon                        | 2.5170068027210886
+Death Sickle                  | 2.5170068027210886
+Amarok                        | 2.5342465753424657
+Cutlass                       | 2.5342465753424657
+Flying Knife                  | 2.5342465753424657
+Blood Butcherer               | 2.5342465753424657
+Magical Harp                  | 2.5517241379310347
+Blade of Grass                | 2.5517241379310347
+Trimarang                     | 2.5517241379310347
+Xenopopper                    | 2.5517241379310347
+Hallowed Repeater             | 2.5694444444444446
+Hive-Five                     | 2.5694444444444446
+KO Cannon                     | 2.5694444444444446
+Magnet Sphere                 | 2.5694444444444446
+Super Star Shooter            | 2.5694444444444446
+Possessed Hatchet             | 2.5874125874125875
+Medusa Head                   | 2.5874125874125875
+Spectre Staff                 | 2.5874125874125875
+Chain Guillotines             | 2.5874125874125875
+Tsunami                       | 2.6056338028169015
+Life Drain                    | 2.6056338028169015
+Malaise                       | 2.6056338028169015
+Aerial Bane                   | 2.6056338028169015
+Titanium Trident              | 2.6056338028169015
+Jack 'O Lantern Launcher      | 2.624113475177305
+Chlorophyte Partisan          | 2.624113475177305
+Inferno Fork                  | 2.642857142857143
+Sleepy Octopod                | 2.642857142857143
+Flymeal                       | 2.661870503597122
+Gungnir                       | 2.661870503597122
+Palladium Repeater            | 2.661870503597122
+Demon Scythe                  | 2.661870503597122
+Uzi                           | 2.661870503597122
+Eventide                      | 2.681159420289855
+Ghastly Glaive                | 2.681159420289855
+Bee Keeper                    | 2.681159420289855
+Book of Skulls                | 2.7007299270072993
+Molten Fury                   | 2.7007299270072993
+Phantom Phoenix               | 2.7007299270072993
+Blizzard Staff                | 2.7007299270072993
+Flower of Frost               | 2.7205882352941178
+Artery                        | 2.7205882352941178
+Chlorophyte Shotbow           | 2.7205882352941178
+Orichalcum Repeater           | 2.7205882352941178
+Exotic Scimitar               | 2.740740740740741
+Bloody Machete                | 2.740740740740741
+Laser Rifle                   | 2.740740740740741
+Bananarang                    | 2.740740740740741
+Sandgun                       | 2.740740740740741
+Terragrim                     | 2.740740740740741
+Titanium Repeater             | 2.740740740740741
+Diamond Staff                 | 2.740740740740741
+Mythril Repeater              | 2.7611940298507465
+Rocket Launcher               | 2.7611940298507465
+Bat Scepter                   | 2.7611940298507465
+Mandible Blade                | 2.7611940298507465
+The Bee's Knees               | 2.7611940298507465
+Flairon                       | 2.7611940298507465
+Chlorophyte Saber             | 2.7611940298507465
+Harpoon                       | 2.781954887218045
+Kraken                        | 2.781954887218045
+Dark Lance                    | 2.781954887218045
+Adamantite Repeater           | 2.781954887218045
+Crystal Serpent               | 2.781954887218045
+Ruby Staff                    | 2.781954887218045
+Scourge of the Corruptor      | 2.781954887218045
+Electrosphere Launcher        | 2.781954887218045
+Amber Staff                   | 2.781954887218045
+Water Bolt                    | 2.781954887218045
+Golden Shower                 | 2.781954887218045
+Chlorophyte Claymore          | 2.803030303030303
+Crystal Vile Shard            | 2.803030303030303
+Falcon Blade                  | 2.8244274809160306
+Stylish Scissors              | 2.8244274809160306
+Beam Sword                    | 2.8244274809160306
+Ham Bat                       | 2.8244274809160306
+True Excalibur                | 2.8244274809160306
+Venom Staff                   | 2.8244274809160306
+Code 2                        | 2.8461538461538463
+Pygmy Staff                   | 2.8461538461538463
+Laser Machinegun              | 2.8461538461538463
+Gradient                      | 2.8461538461538463
+Shadowbeam Staff              | 2.868217054263566
+Star Cannon                   | 2.868217054263566
+Durendal                      | 2.868217054263566
+Valor                         | 2.868217054263566
+Arkhalis                      | 2.890625
+Flower of Fire                | 2.890625
+Celebration                   | 2.890625
+Cursed Flames                 | 2.890625
+Daedalus Stormbow             | 2.890625
+Rally                         | 2.9133858267716537
+Grenade Launcher              | 2.9133858267716537
+Tragic Umbrella               | 2.9133858267716537
+Combat Wrench                 | 2.9365079365079363
+Red's Throw                   | 2.9365079365079363
+Dart Rifle                    | 2.9365079365079363
+Bubble Gun                    | 2.9365079365079363
+Candy Cane Sword              | 2.9365079365079363
+Classy Cane                   | 2.9365079365079363
+Nettle Burst                  | 2.9365079365079363
+Valkyrie Yoyo                 | 2.9365079365079363
+Light's Bane                  | 2.96
+Format:C                      | 2.96
+Candy Corn Rifle              | 2.96
+Influx Waver                  | 2.9838709677419355
+Pirate Staff                  | 2.9838709677419355
+Starlight                     | 2.9838709677419355
+Heat Ray                      | 2.9838709677419355
+Tome of Infinite Wisdom       | 2.9838709677419355
+True Night's Edge             | 2.9838709677419355
+Cobalt Repeater               | 3.008130081300813
+Starfury                      | 3.008130081300813
+Zombie Arm                    | 3.008130081300813
+Phoenix Blaster               | 3.0327868852459017
+Gladius                       | 3.0327868852459017
+Brand of the Inferno          | 3.0327868852459017
+Blood Rain Bow                | 3.0327868852459017
+Storm Spear                   | 3.0578512396694215
+Poison Staff                  | 3.0578512396694215
+Hornet Staff                  | 3.0578512396694215
+Clinger Staff                 | 3.0578512396694215
+North Pole                    | 3.0578512396694215
+Flamethrower                  | 3.0833333333333335
+Firecracker                   | 3.0833333333333335
+Revolver                      | 3.0833333333333335
+Dao of Pow                    | 3.0833333333333335
+Snowman Cannon                | 3.0833333333333335
+Bladetongue                   | 3.0833333333333335
+Hellwing Bow                  | 3.1092436974789917
+Umbrella                      | 3.1092436974789917
+The Eye of Cthulhu            | 3.135593220338983
+Spinal Tap                    | 3.135593220338983
+Ice Blade                     | 3.135593220338983
+Raven Staff                   | 3.1623931623931623
+Sky Dragon's Fury             | 3.1623931623931623
+Fetid Baghnakhs               | 3.1623931623931623
+Nebula Arcanum                | 3.1623931623931623
+Flying Dragon                 | 3.189655172413793
+Nightglow                     | 3.217391304347826
+Code 1                        | 3.217391304347826
+Terra Blade                   | 3.245614035087719
+The Meatball                  | 3.274336283185841
+Emerald Staff                 | 3.274336283185841
+Christmas Tree Sword          | 3.274336283185841
+Paintball Gun                 | 3.274336283185841
+Cool Whip                     | 3.274336283185841
+Shroomerang                   | 3.274336283185841
+Bat Bat                       | 3.274336283185841
+Elf Melter                    | 3.274336283185841
+Toxic Flask                   | 3.274336283185841
+Light Disc                    | 3.274336283185841
+Handgun                       | 3.3035714285714284
+Ice Rod                       | 3.3035714285714284
+Charged Blaster Cannon        | 3.3035714285714284
+Trident                       | 3.3035714285714284
+Stellar Tune                  | 3.3333333333333335
+Blowgun                       | 3.3333333333333335
+Muramasa                      | 3.3333333333333335
+Swordfish                     | 3.3333333333333335
+The Rotted Fork               | 3.3333333333333335
+Vampire Knives                | 3.3333333333333335
+Volcano                       | 3.3333333333333335
+Flaming Mace                  | 3.3636363636363638
+Demon Bow                     | 3.3636363636363638
+Flamelash                     | 3.3944954128440368
+Slime Staff                   | 3.3944954128440368
+Phantasm                      | 3.3944954128440368
+The Undertaker                | 3.3944954128440368
+Thorn Chakram                 | 3.3944954128440368
+Thunder Zapper                | 3.3944954128440368
+Vortex Beater                 | 3.3944954128440368
+Wooden Boomerang              | 3.3944954128440368
+Sapphire Staff                | 3.3944954128440368
+Chain Knife                   | 3.425925925925926
+Razorblade Typhoon            | 3.425925925925926
+Toxikarp                      | 3.425925925925926
+Sanguine Staff                | 3.425925925925926
+Leaf Blower                   | 3.425925925925926
+Silver Broadsword             | 3.457943925233645
+Stake Launcher                | 3.457943925233645
+Breathing Reed                | 3.457943925233645
+Tungsten Broadsword           | 3.457943925233645
+Blood Thorn                   | 3.457943925233645
+Unholy Trident                | 3.490566037735849
+Musket                        | 3.490566037735849
+Crystal Storm                 | 3.490566037735849
+Flamarang                     | 3.490566037735849
+Blue Moon                     | 3.490566037735849
+Deadly Sphere Staff           | 3.490566037735849
+Pew-matic Horn                | 3.490566037735849
+Copper Broadsword             | 3.490566037735849
+Magic Dagger                  | 3.490566037735849
+Wasp Gun                      | 3.5238095238095237
+Tactical Shotgun              | 3.5238095238095237
+Mace                          | 3.5238095238095237
+Razorpine                     | 3.5576923076923075
+Ball O' Hurt                  | 3.5576923076923075
+Tendon Bow                    | 3.5576923076923075
+Pearlwood Sword               | 3.5576923076923075
+Keybrand                      | 3.5576923076923075
+Tempest Staff                 | 3.592233009708738
+Betsy's Wrath                 | 3.592233009708738
+Aqua Scepter                  | 3.592233009708738
+Queen Spider Staff            | 3.592233009708738
+Ash Wood Sword                | 3.627450980392157
+Snapthorn                     | 3.627450980392157
+Optic Staff                   | 3.627450980392157
+Magic Missile                 | 3.627450980392157
+Platinum Shortsword           | 3.627450980392157
+Lead Broadsword               | 3.627450980392157
+Rainbow Gun                   | 3.627450980392157
+Cactus Sword                  | 3.6633663366336635
+Boomstick                     | 3.6633663366336635
+Dark Harvest                  | 3.6633663366336635
+Iron Broadsword               | 3.6633663366336635
+Piranha Gun                   | 3.6633663366336635
+Katana                        | 3.6633663366336635
+Gold Shortsword               | 3.6633663366336635
+Enchanted Boomerang           | 3.7
+Hallowed Jousting Lance       | 3.7
+Nimbus Rod                    | 3.7373737373737375
+Tin Broadsword                | 3.7373737373737375
+Breaker Blade                 | 3.7373737373737375
+Drippler Crippler             | 3.7373737373737375
+Pulse Bow                     | 3.7373737373737375
+Xeno Staff                    | 3.7755102040816326
+Shadewood Sword               | 3.7755102040816326
+Obsidian Swordfish            | 3.7755102040816326
+Spider Staff                  | 3.7755102040816326
+Ebonwood Sword                | 3.7755102040816326
+Fruitcake Chakram             | 3.7755102040816326
+Space Gun                     | 3.814432989690722
+Platinum Broadsword           | 3.8541666666666665
+Imp Staff                     | 3.8541666666666665
+Kaleidoscope                  | 3.8541666666666665
+Mushroom Spear                | 3.8541666666666665
+Gray Zapinator                | 3.8541666666666665
+Terraprisma                   | 3.8541666666666665
+Wooden Yoyo                   | 3.8541666666666665
+Palm Wood Sword               | 3.8947368421052633
+Rich Mahogany Sword           | 3.8947368421052633
+Staff of Earth                | 3.8947368421052633
+Boreal Wood Sword             | 3.8947368421052633
+Red Ryder                     | 3.8947368421052633
+Vampire Frog Staff            | 3.9361702127659575
+Gold Broadsword               | 3.9361702127659575
+Bee Gun                       | 3.9361702127659575
+Bladed Glove                  | 3.9361702127659575
+Lunar Flare                   | 3.9361702127659575
+Anchor                        | 3.978494623655914
+Clockwork Assault Rifle       | 3.978494623655914
+Psycho Knife                  | 3.978494623655914
+Chain Gun                     | 3.978494623655914
+Sunfury                       | 3.978494623655914
+Ice Boomerang                 | 4.021739130434782
+Flower Pow                    | 4.021739130434782
+Paladin's Hammer              | 4.021739130434782
+Orange Zapinator              | 4.065934065934066
+Golem Fist                    | 4.065934065934066
+Blowpipe                      | 4.111111111111111
+Desert Tiger Staff            | 4.111111111111111
+Wooden Sword                  | 4.111111111111111
+Flinx Staff                   | 4.157303370786517
+Jousting Lance                | 4.157303370786517
+Houndius Shootius             | 4.157303370786517
+Tungsten Shortsword           | 4.204545454545454
+Vilethorn                     | 4.204545454545454
+Daybreak                      | 4.204545454545454
+Stardust Dragon Staff         | 4.252873563218391
+Ale Tosser                    | 4.252873563218391
+Snowball Cannon               | 4.252873563218391
+Shotgun                       | 4.3023255813953485
+Megashark                     | 4.3023255813953485
+Onyx Blaster                  | 4.352941176470588
+The Horseman's Blade          | 4.352941176470588
+Nail Gun                      | 4.352941176470588
+Silver Shortsword             | 4.404761904761905
+Lead Shortsword               | 4.404761904761905
+Terrarian                     | 4.457831325301205
+Iron Shortsword               | 4.457831325301205
+Topaz Staff                   | 4.457831325301205
+Nebula Blaze                  | 4.457831325301205
+Wand of Sparking              | 4.457831325301205
+Amethyst Staff                | 4.512195121951219
+Sergeant United Shield        | 4.512195121951219
+Abigail's Flower              | 4.512195121951219
+Stardust Cell Staff           | 4.567901234567901
+Crimson Rod                   | 4.567901234567901
+Zenith                        | 4.625
+Finch Staff                   | 4.6835443037974684
+Solar Eruption                | 4.6835443037974684
+Leather Whip                  | 4.6835443037974684
+Weather Pain                  | 4.6835443037974684
+Staff of the Frost Hydra      | 4.743589743589744
+Tin Shortsword                | 4.743589743589744
+Slap Hand                     | 4.805194805194805
+Star Wrath                    | 4.805194805194805
+Ruler                         | 4.805194805194805
+Platinum Bow                  | 4.805194805194805
+Flintlock Pistol              | 4.805194805194805
+Proximity Mine Launcher       | 4.868421052631579
+Shadow Jousting Lance         | 4.933333333333334
+Spear                         | 4.933333333333334
+Last Prism                    | 5
+Copper Shortsword             | 5
+Meowmere                      | 5
+Quad-Barrel Shotgun           | 5.36231884057971
+Coin Gun                      | 5.36231884057971
+Purple Clubberfish            | 5.4411764705882355
+Tungsten Bow                  | 5.522388059701493
+Lunar Portal Staff            | 5.522388059701493
+Pearlwood Bow                 | 5.606060606060606
+Gold Bow                      | 5.606060606060606
+Sniper Rifle                  | 5.606060606060606
+S.D.M.G.                      | 5.606060606060606
+Lead Bow                      | 5.6923076923076925
+Silver Bow                    | 5.6923076923076925
+Gatligator                    | 5.78125
+Ebonwood Bow                  | 5.873015873015873
+Iron Bow                      | 5.873015873015873
+Shadewood Bow                 | 5.873015873015873
+Rainbow Crystal Staff         | 6.166666666666667
+Morning Star                  | 6.166666666666667
+Rich Mahogany Bow             | 6.271186440677966
+Copper Bow                    | 6.271186440677966
+Tin Bow                       | 6.271186440677966
+Palm Wood Bow                 | 6.271186440677966
+Blade Staff                   | 6.271186440677966
+Boreal Wood Bow               | 6.271186440677966
+Wooden Bow                    | 6.7272727272727275
+Celebration Mk2               | 7.4
+Flare Gun                     | 7.708333333333333
+Minishark                     | 8.043478260869565
