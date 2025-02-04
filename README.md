@@ -22,7 +22,7 @@ Print a ranked list of all the openers:
 ```
 ./tarradle-solver --mode openers
 ```
-List the amount of attempts the solver needs for each weapon:
+List the amount of attempts the solver needs to determine the stats of every weapon. Note that it counts until it has found out the exact stats of the item, rather than the item itself. Due to luck, this results in slightly higher try-counts than an actual terradle would take, while not counting additional "random" tries when items have same stats.
 ```
 ./terradle-solver --mode simulate # | sort
 ```
