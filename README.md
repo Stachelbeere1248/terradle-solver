@@ -3,6 +3,10 @@ An algorithm to solve [https://www.terradle.com/](terradle.com).
 
 The algorith determines the guess with the lowest average (arithmetic mean) amount of possible weapons for the next guess, based on all possible sets of new information it could provide.
 
+Dependencies:
+- openssl header files
+alternatively you can modify Cargo.toml to use rustls instead of native-tls
+
 Download and build the project:
 ```
 git clone https://github.com/Stachelbeere1248/terradle-solver.git
