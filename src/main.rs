@@ -23,9 +23,9 @@ async fn main() {
     })
     .collect::<Vec<_>>();
     weapon_scores.sort_unstable_by(|(_, s1),(_,s2)| s1.partial_cmp(s2).unwrap());
-    println!("{:<30}: Score\n", "Weapon".to_string());
+    println!("{:<30}| Score\n", "Weapon".to_string());
     for (weapon, score) in weapon_scores {
-        println!("{:<30}: {score}", weapon.data.name);
+        println!("{:<30}| {score}", weapon.data.name);
     }
 }
 
