@@ -17,3 +17,6 @@ Print a ranked list of all the openers:
 ```
 ./tarradle-solver --mode openers
 ```
+
+![cli-example](example.png)
+![web-example](example-web.png)
