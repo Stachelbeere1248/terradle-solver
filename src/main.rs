@@ -39,10 +39,14 @@ async fn main() {
         Modes::Interactive => {
             let (t, vw) = interactive(weapons, None);
             let mut s = String::new();
-            s.push_str(format!("After {t} attempts the following weapons have the correct stats:\n").as_str());
-            vw.into_iter().for_each(|w| s.push_str(w.data.name.as_str()));
+            s.push_str(
+                format!("After {t} attempts the following weapons have the correct stats:\n")
+                    .as_str(),
+            );
+            vw.into_iter()
+                .for_each(|w| s.push_str(w.data.name.as_str()));
             println!("{s}");
-        },
+        }
         Modes::Simulate => simulate(weapons),
     };
 }
@@ -62,10 +66,15 @@ fn openers(weapons: Vec<Weapon>) {
 fn simulate(weapons: Vec<Weapon>) {
     weapons
         .iter()
-        .map(|w| { 
+        .map(|w| {
             let (t, vw) = interactive(weapons.clone(), Some(w));
-            format!("It took {t} guesses to find {} with {} other items with same stats.", w.data.name, vw.len()-1 )
-        }).for_each(|l| println!("{l}"));
+            format!(
+                "It took {t} guesses to find {} with {} other items with same stats.",
+                w.data.name,
+                vw.len() - 1
+            )
+        })
+        .for_each(|l| println!("{l}"));
 }
 
 fn interactive(mut weapons: Vec<Weapon>, correct: Option<&Weapon>) -> (u8, Vec<Weapon>) {
@@ -151,8 +160,13 @@ fn interactive(mut weapons: Vec<Weapon>, correct: Option<&Weapon>) -> (u8, Vec<W
             Some(wc) => Relations::from((&wc.data, &nguess.data)),
         };
         weapons.retain(|w| Relations::from((&w.data, &nguess.data)) == rel);
-        have_different_stats = weapons.iter().any(|w| Relations::from((&w.data, &weapons.first().unwrap().data)) != Relations::default());
-        if have_different_stats { nguess = next_guess(&weapons).clone(); tries += 1; };
+        have_different_stats = weapons.iter().any(|w| {
+            Relations::from((&w.data, &weapons.first().unwrap().data)) != Relations::default()
+        });
+        if have_different_stats {
+            nguess = next_guess(&weapons).clone();
+            tries += 1;
+        };
     }
     tries += 1;
     (tries, weapons)

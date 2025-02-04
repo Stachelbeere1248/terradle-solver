@@ -17,6 +17,10 @@ Print a ranked list of all the openers:
 ```
 ./tarradle-solver --mode openers
 ```
+List the amount of attempts the solver needs for each weapon:
+```
+./terradle-solver --mode simulate # | sort
+```
 
 ![cli-example](example.png)
 ![web-example](example-web.png)
