@@ -20,6 +20,7 @@ Finding the weapon of the day should take ~2.659 attempts in average.
 If you are wondering about the meaning of the .5 values:
 Sometimes, after an incorrect guess, there are multiple items remaining with the same stats. In this case their amount of attempts are averaged (example: assume after 2 tries you get a choice between two weapons. Equivalently to averaging, you could say one weapon takes 3 tries while the other weapon takes 4).
 
+## Building
 Dependencies:
 - openssl header files
 
@@ -31,6 +32,7 @@ git clone https://github.com/Stachelbeere1248/terradle-solver.git
 cd terradle-solver
 cargo build -r
 ```
+## Running
 Interactively solve the terradle of the day:
 ```
 ./terradle-solver
@@ -43,6 +45,6 @@ List the amount of attempts the solver needs to determine the stats of every wea
 ```
 ./terradle-solver --mode simulate # | sort
 ```
-
+## Examples
 ![cli-example](example.png)
 ![web-example](example-web.png)
