@@ -18,7 +18,7 @@ Finding the weapon of the day should take ~2.659 attempts in average.
 | 6.0 | 1   |
 
 If you are wondering about the meaning of the .5 values:
-Sometimes, after an incorrect guess, there are multiple items remaining with the same stats. In this case their amount of attempts are averaged (example: assume after 3 tries you get a choice between two weapons. Equivalently to averaging, you could say one weapon takes 3 tries while the other weapon takes 4).
+Sometimes, after an incorrect guess, there are multiple items remaining with the same stats. In this case their amount of attempts are averaged (example: assume after 2 tries you get a choice between two weapons. Equivalently to averaging, you could say one weapon takes 3 tries while the other weapon takes 4).
 
 Dependencies:
 - openssl header files
