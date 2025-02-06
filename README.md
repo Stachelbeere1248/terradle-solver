@@ -6,7 +6,7 @@ The algorith determines the guess with the lowest average (arithmetic mean) amou
 Finding the weapon of the day should take ~2.659 attempts in average.
 | Try count  x | Amount weapons guessed in x tries |
 |---------|-------|
-| 1 | 1     |
+| 1 | 1 (opener)    |
 | 2.0 - <2.5 | 172 |
 | 2.5 - <3.0 | 2   |
 | 3.0 - <3.5 | 160 |
