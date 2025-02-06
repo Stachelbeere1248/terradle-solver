@@ -2,7 +2,23 @@
 An algorithm to solve [https://www.terradle.com/](terradle.com).
 
 The algorith determines the guess with the lowest average (arithmetic mean) amount of possible weapons for the next guess, based on all possible sets of new information it could provide.
+
 Finding the weapon of the day should take ~2.659 attempts in average.
+| Range   | Count |
+|---------|-------|
+| 1 | 1     |
+| 2.0 - <2.5 | 172 |
+| 2.5 - <3.0 | 2   |
+| 3.0 - <3.5 | 160 |
+| 3.5 - <4.0 | 6   |
+| 4.0 - <4.5 | 16  |
+| 4.5 - <5.0 | 3   |
+| 5.0 - <5.5 | 6   |
+| 5.5 - <6.0 | 4   |
+| 6.0 | 1   |
+
+If you are wondering about the meaning of the .5 values:
+Sometimes, after an incorrect guess, there are multiple items remaining with the same stats. In this case their amount of attempts are averaged (example: assume after 3 tries you get a choice between two weapons. Equivalently to averaging, you could say one weapon takes 3 tries while the other weapon takes 4).
 
 Dependencies:
 - openssl header files
