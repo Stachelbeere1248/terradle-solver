@@ -2,6 +2,7 @@
 An algorithm to solve [https://www.terradle.com/](terradle.com).
 
 The algorith determines the guess with the lowest average (arithmetic mean) amount of possible weapons for the next guess, based on all possible sets of new information it could provide.
+Finding the weapon of the day should take ~2.659 attempts in average.
 
 Dependencies:
 - openssl header files
