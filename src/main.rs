@@ -40,8 +40,7 @@ async fn main() {
             let (t, vw) = interactive(weapons, None);
             let mut s = String::new();
             s.push_str(
-                format!("After {t} attempts the following weapons have the correct stats:\n")
-                    .as_str(),
+                format!("Attempt #{t}: the following weapons have the correct stats:\n").as_str(),
             );
             vw.into_iter()
                 .for_each(|w| s.push_str(w.data.name.as_str()));
@@ -64,17 +63,25 @@ fn openers(weapons: Vec<Weapon>) {
 }
 
 fn simulate(weapons: Vec<Weapon>) {
+    let mut total_tries = 0_f64;
     weapons
         .iter()
         .map(|w| {
             let (t, vw) = interactive(weapons.clone(), Some(w));
-            format!(
-                "It took {t} guesses to find {} with {} other items with same stats.",
-                w.data.name,
-                vw.len() - 1
+            let avg_tries = t as f64 + ((vw.len() - 1_usize) as f64 / 2_f64); // avg amount of additional tries to guess the item out of a list of items with same stats, not counting the first guess
+            (
+                avg_tries,
+                format!("It takes {avg_tries} guesses to find {}.", w.data.name),
             )
         })
-        .for_each(|l| println!("{l}"));
+        .for_each(|(t, l)| {
+            total_tries += t;
+            println!("{l}");
+        });
+    println!(
+        "\nAverage amount of guesses to find an item: {}",
+        total_tries / weapons.len() as f64
+    );
 }
 
 fn interactive(mut weapons: Vec<Weapon>, correct: Option<&Weapon>) -> (u8, Vec<Weapon>) {
@@ -83,93 +90,106 @@ fn interactive(mut weapons: Vec<Weapon>, correct: Option<&Weapon>) -> (u8, Vec<W
             "Please note that Yes, No, and Correct options refer to the color of the terradle field, independent of the text inside."
         );
     };
-    let mut have_different_stats = true;
-    let mut tries = 1_u8;
-    let mut nguess = next_guess(&weapons).clone();
-    while have_different_stats {
+    let mut tries = 0_u8;
+    'l: loop {
+        let nguess = next_guess(&weapons).clone();
+        tries += 1;
+
         let rel = match correct {
             None => {
-                println!("Next best guess: {}", nguess.data.name);
-                let c = bool_inquire(
-                    Select::new("Was the class correct?", vec!["Yes", "No"])
-                        .prompt()
-                        .unwrap(),
+                println!(
+                    "Next best guess: {}, {} other valid items remain.",
+                    nguess.data.name,
+                    weapons.len() - 1
                 );
-                let d = ord_inquire(
-                    Select::new(
-                        "Was the damage correct?",
-                        vec!["Correct", "Lower", "Higher"],
-                    )
-                    .prompt()
-                    .unwrap(),
-                );
-                let k = ord_inquire(
-                    Select::new(
-                        "Was the knockback correct?",
-                        vec!["Correct", "Lower", "Higher"],
-                    )
-                    .prompt()
-                    .unwrap(),
-                );
-                let s = ord_inquire(
-                    Select::new(
-                        "Was the speed correct?",
-                        vec!["Correct", "Slower", "Faster"],
-                    )
-                    .prompt()
-                    .unwrap(),
-                );
-                let r = ord_inquire(
-                    Select::new(
-                        "Was the rarity correct?",
-                        vec!["Correct", "Lower", "Higher"],
-                    )
-                    .prompt()
-                    .unwrap(),
-                );
-                let a = bool_inquire(
-                    Select::new("Was the autoswing correct?", vec!["Yes", "No"])
-                        .prompt()
-                        .unwrap(),
-                );
-                let m = bool_inquire(
-                    Select::new("Was the usability in recipies correct?", vec!["Yes", "No"])
-                        .prompt()
-                        .unwrap(),
-                );
-                let o = ord_inquire(
-                    Select::new(
-                        "Was the obtainability correct?",
-                        vec!["Yes", "No", "Partially"],
-                    )
-                    .prompt()
-                    .unwrap(),
-                );
-                println!();
-                Relations {
-                    c,
-                    d,
-                    k,
-                    s,
-                    r,
-                    a,
-                    m,
-                    o,
-                }
+                inquire_rel()
             }
-            Some(wc) => Relations::from((&wc.data, &nguess.data)),
+            Some(w) => Relations::from((&w.data, &nguess.data)),
         };
         weapons.retain(|w| Relations::from((&w.data, &nguess.data)) == rel);
-        have_different_stats = weapons.iter().any(|w| {
-            Relations::from((&w.data, &weapons.first().unwrap().data)) != Relations::default()
-        });
-        if have_different_stats {
-            nguess = next_guess(&weapons).clone();
-            tries += 1;
+
+        if let Some(w) = correct {
+            if *w == nguess {
+                break 'l (tries, vec![w.clone()]);
+            }
+        };
+        if weapons.len() == 1
+            || weapons.iter().all(|w| {
+                Relations::from((&w.data, &weapons.first().unwrap().data)) == Relations::default()
+            })
+        {
+            break 'l (tries + 1, weapons);
         };
     }
-    tries += 1;
-    (tries, weapons)
+}
+
+fn inquire_rel() -> Relations {
+    let c = bool_inquire(
+        Select::new("Was the class correct?", vec!["Yes", "No"])
+            .prompt()
+            .unwrap(),
+    );
+    let d = ord_inquire(
+        Select::new(
+            "Was the damage correct?",
+            vec!["Correct", "Lower", "Higher"],
+        )
+        .prompt()
+        .unwrap(),
+    );
+    let k = ord_inquire(
+        Select::new(
+            "Was the knockback correct?",
+            vec!["Correct", "Lower", "Higher"],
+        )
+        .prompt()
+        .unwrap(),
+    );
+    let s = ord_inquire(
+        Select::new(
+            "Was the speed correct?",
+            vec!["Correct", "Slower", "Faster"],
+        )
+        .prompt()
+        .unwrap(),
+    );
+    let r = ord_inquire(
+        Select::new(
+            "Was the rarity correct?",
+            vec!["Correct", "Lower", "Higher"],
+        )
+        .prompt()
+        .unwrap(),
+    );
+    let a = bool_inquire(
+        Select::new("Was the autoswing correct?", vec!["Yes", "No"])
+            .prompt()
+            .unwrap(),
+    );
+    let m = bool_inquire(
+        Select::new("Was the usability in recipies correct?", vec!["Yes", "No"])
+            .prompt()
+            .unwrap(),
+    );
+    let o = ord_inquire(
+        Select::new(
+            "Was the obtainability correct?",
+            vec!["Yes", "No", "Partially"],
+        )
+        .prompt()
+        .unwrap(),
+    );
+    println!();
+    Relations {
+        c,
+        d,
+        k,
+        s,
+        r,
+        a,
+        m,
+        o,
+    }
 }
 
 fn bool_inquire(s: &str) -> bool {

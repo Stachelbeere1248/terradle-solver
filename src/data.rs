@@ -68,7 +68,7 @@ pub enum ObtainingMethod {
     Buy,
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub struct SellValue {
     platinum: u16,
     gold: u8,
@@ -130,7 +130,7 @@ impl<'de> Deserialize<'de> for SellValue {
         })
     }
 }
-#[derive(Debug, Clone, Deserialize)]
+#[derive(Debug, Clone, Deserialize, PartialEq, Eq)]
 #[serde(rename_all = "camelCase")]
 pub struct WeaponData {
     #[serde(deserialize_with = "deserialize_u16_from_string")]
@@ -179,7 +179,7 @@ where
     deserializer.deserialize_any(U16FromString)
 }
 
-#[derive(Clone, Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize, PartialEq, Eq)]
 #[serde(rename_all = "camelCase")]
 pub struct Weapon {
     pub data: WeaponData,
